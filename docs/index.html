@@ -22,14 +22,16 @@
 <body>
 <h1 align="middle">CS 184: Computer Graphics and Imaging, Spring 2022</h1>
 <h1 align="middle">Final Project</h1>
-<h2 align="middle">Shilpa Sathyanathan, David McAllister, James Dai, </h2>
+<h2 align="middle">Shilpa Sathyanathan, David McAllister, James Dai, Ethan Gnibus</h2>
 <h4 align="middle"> Project Link: https://github.com/shilpasath/cs184-finalproj</h4>
 
 <div>
 
-<h2 align="middle">Overview</h2><p> In this project, I extended the path-tracing algorithm to apply it to other more interesting materials such as glass and mirrors. I also added environment light using an envmap (environment map).</p>
+<h2 align="middle">Summary</h2>
+	<p>Cal Rally Com is interested in creating an interactive experience for people who attend football games to play with while they’re bored during the game, timeouts, or halftime. We think that being able to orient meshes based on an attendee's position in the football stands would be useful and all them to watch recaps. If we can orient a mesh correctly from every point in the stadium, then we can properly do things like orient the paths that players have moved during the game, the plays that each team was running, etc. 
+	</p><p> The goal of this project is to make live events more entertaining. Some hard parts of this project are figuring out where the user is in the stadium, extracting features from the stadium (corners, end goal lines, etc), and displaying the features in the correct place when you point your phone at the field.</p>
 
-<h3 align="middle">Part 1: Mirror and Glass Materials</h3>
+<h3 align="middle">Goals and Deliverables</h3>
 
 <ol>
   <li>For this part, I used two new materials, glass and mirrors. For mirror materials, I used the reflect function and reflected the wo vector around (0,0,1) and set that two w1. I set the pdf to 1 since there is no sampling, and then returned the reflectance / cosine factor. </li>
@@ -68,9 +70,15 @@
 </ol>
 
 
-<h3 align="middle">Part 3: Environment Light</h3>
+<h3 align="middle">Schedule</h3>
 <ol>
   <li> Environment lightning involves sampling the environment map in order to find its radiance at a particular point. I did both uniform and importance sampling in this part.  </li>
+</ol>
+	
+<h3 align="middle">Resources</h3>
+<ol>
+  <li>We will be using ARKit (Swift and XCode) and foresee ourselves using ARKit-related documentation and online resources. </li>
+  <li>We'll also be using iPhone and iPad hardware. </li>
 </ol>
 
 </body>
