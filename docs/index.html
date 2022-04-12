@@ -71,15 +71,31 @@
 
 
 <h3 align="middle">Schedule</h3>
-<ol>
-  <li> Go to Memorial Stadium and write software for detecting where we are on the field</li>
-  <ul> Get an app running with ARKit.</ul>
-  <ul> Make a game loop to extract a real world point and draw it to the screen with ARKit.</ul>
-  <ul> Extract four real world points, interpolate between them, and draw a plane with their barycentric coordinates to the screen.</ul>
-  <ul> Apply this to the stadium. </ul>
-  <ul style=“list-style-type:disc”> Try to extract user position in the stadium</ul>
-  
-</ol>
+<ul>
+  <li>Go to Memorial Stadium and write software for detecting where we are on the field
+    <ul>
+      <li>Get an app running with ARKit</li>
+      <li>Make a game loop to extract a real world point and draw it to the screen with ARKit.</li>
+      <li>Extract four real world points, interpolate between them, and draw a plane with their barycentric coordinates to the screen.</li>
+      <li>Apply this to the stadium. </li>
+         <ul> 
+           <li>Try to extract user position in the stadium </li>
+           <li>Use markers on the field to extract relative positioning</li>
+           <li> Draw the barycentric coordinates to the field.</li>
+           <li> Flex goal: draw a mesh on the field!</li>
+         </ul>
+    </ul>  
+  </li>
+  <li> Debugging and Testing</li> 
+   <ul>
+     <li> Perfect code to ensure the relative positioning extracted and plane fit nicely into the stadium. Constantly iterate until working well.</li>
+   </ul>
+  <li>Create a cool demo: plane on the football field, colored using barycentric coordinates. Potentially more if time permits (i.e. big Cal bear).</li> 
+   <ul>
+     <li>Segment field by yard lines for more effects</li>
+     <li>Cross-device timing for shared animations, visual effects </li>
+   </ul>
+</ul>
 	
 <h3 align="middle">Resources</h3>
 <ol>
